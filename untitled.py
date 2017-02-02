@@ -22,5 +22,7 @@ Servo = GPIO.PWM(11, 50)
 Servo.start(2.5)
 
 
-print "move to the right position:"
+#print "move to the right position:"
 Servo.ChangeDutyCycle(12.5)
+
+Servo.stop()
