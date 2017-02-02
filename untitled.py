@@ -19,4 +19,8 @@ print GPIO.BOARD
 Servo = GPIO.PWM(11, 50)						
 
 # This command sets the left position of the servo
-Servo.start(2.5*7)
+Servo.start(2.5)
+
+
+print "move to the right position:"
+Servo.ChangeDutyCycle(12.5)
